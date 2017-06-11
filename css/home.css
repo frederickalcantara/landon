@@ -1,0 +1,371 @@
+/***********
+UNIVERSAL
+***********/
+
+body {
+    background-color: #c2c5d6;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #444;
+}
+
+.container {
+    background: #ffffff;
+    width: 960px;
+    height: 2050px;
+    margin: 20px auto 20px auto;
+    -webkit-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+a {
+    color: #6a6a6a;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #8b2e59;
+}
+
+.main-nav {
+    color: #602E8B;
+    margin: auto 20px auto 20px;
+}
+
+h1 {
+    color: #602E8B;
+    margin-left: 30px;
+}
+
+h2 {
+    color: #959bd1;
+    text-align: center;
+}
+
+nav li {
+    color: #959bd1;
+    list-style-type: none;
+    display: inline-block;
+}
+
+nav li:hover {
+    color: #8b472e;
+}
+
+
+/***********
+FOOTER
+***********/
+
+footer {
+    background-color: #602E8B;
+    height: 56px;
+    clear: both;
+    width: 960px;
+}
+
+p.foot {
+    color: #fff;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+
+/*****************
+SECTION: HOMEPAGE
+*****************/
+
+section.uno {
+    float: left;
+}
+
+section.dos {
+    float: left;
+}
+
+article.words {
+    float: left;
+    width: 600px;
+}
+
+h3.city-home {
+    padding-left: 60px;
+}
+
+p.text {
+    padding-left: 50px;
+    padding-right: 60px;
+}
+
+aside.img-home {
+    width: 300px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+}
+
+.hotel {
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+
+/***************
+HOME-SECTION: BOTTOM
+***************/
+
+.linebreak {
+    padding-top: 10px;
+}
+
+hr {
+    clear: both;
+    border: 1px solid #e4e4e4;
+    width: 92.5%;
+}
+
+.home-page {
+    float: left;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.home-text {
+    clear: both;
+    padding-top: 15px;
+    padding-left: 50px;
+    padding-right: 60px;
+}
+
+
+/*************
+ROOM SERVICE
+*************/
+
+.room {
+    height: 62.3415%;
+}
+
+.food {
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-image: url('../img/table-setting.jpeg');
+}
+
+.food-service {
+    color: #959bd1;
+    padding-left: 5px;
+    font-weight: normal;
+    line-height: 20px;
+}
+
+.food-service:hover {
+    color: #95d1cb;
+}
+
+.food-list {
+    margin-left: 40px;
+    padding-left: 15px;
+    margin-bottom: 20px;
+}
+
+.room-service {
+    float: left;
+    width: 560px;
+}
+
+.room-head {
+    padding-left: 40px;
+    font-size: 2.5em;
+}
+
+.room-text {
+    padding-left: 60px;
+    padding-right: 20px;
+}
+
+.rest-to-room {
+    width: 300px;
+    float: left;
+    margin: 50px 40px 40px 0px;
+    padding-left: 30px;
+}
+
+form {
+    float: left;
+    margin-left: 60px;
+    margin-bottom: 60px;
+}
+
+
+/************
+RESERVATIONS
+*************/
+
+.reserve {
+    height: 48.7317%;
+}
+
+.reserve-head {
+    text-align: left;
+    padding: 40px 0 0 100px;
+    margin-left: 60px;
+}
+
+
+/**********
+SPECIALS
+***********/
+
+.special-container {
+    height: 95.65853%;
+}
+
+.special-section {
+    padding-right: 30px;
+}
+
+.special-head {
+    color: #602E8B;
+    font-size: 2.25em;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+.special-city {
+    padding-left: 80px;
+    padding-bottom: 10px;
+}
+
+.special-deals {
+    padding-left: 70px;
+}
+
+.special-text {
+    padding-left: 70px;
+}
+
+.special-line {
+    width: 92.5%;
+    border-color: #b3b3b3;
+    margin-right: 0px;
+}
+
+
+/******************
+MEETINGS & EVENTS
+*******************/
+
+.meeting {
+    height: 80.87805%;
+}
+
+.meeting-uno {
+    float: left;
+    width: 960px;
+}
+
+.meeting-dos {
+    float: left;
+    width: 960px;
+}
+
+.meeting-head {
+    color: #602E8B;
+    font-size: 2.25em;
+    padding-left: 25px;
+    padding-top: 20px;
+}
+
+.meet-words {
+    width: 540px;
+    float: left;
+}
+
+.meeting-text {
+    padding-left: 50px;
+}
+
+.meeting-event {
+    padding-left: 50px;
+    font-weight: bold;
+}
+
+.meet-list {
+    margin-left: 42.5px;
+    font-size: 1.0em;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.line-meet {
+    border: 1px solid #e4e4e4;
+    width: 87.5%;
+    margin-right: 15px;
+}
+
+aside.img-meet {
+    float: left;
+    width: 300px;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+aside.img-rest {
+    padding-top: 60px;
+}
+
+
+/************
+NEWS
+************/
+
+.news-container {
+    height: 98.53658%;
+    width: 960px;
+}
+
+.news {
+    padding-left: 50px;
+    padding-top: 30px;
+    padding-right: 50px;
+    padding-bottom: 25px;
+}
+
+.news-headline {
+    color: #602E8B;
+    line-height: 1.25em;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+
+/************
+CONTACT
+************/
+
+.contact {
+    height: 52.7805%;
+}
+
+.contact-head {
+    color: #602E8B;
+    font-size: 2em;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.reply {
+    padding-left: 65px;
+    margin-left: 120px;
+    text-align: left;
+    font-weight: 700;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.email-form {
+    padding-left: 60px;
+}
